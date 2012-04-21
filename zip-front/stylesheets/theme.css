@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Helvetica-Neue;
+  src: url("Helvetica-Neue.ttf"); }
+
+@-webkit-keyframes 'glow' {
+  0% {
+    border-color: rgba(189, 189, 189, 0.25); }
+
+  100% {
+    border-color: #bdbdbd; } }
+
+body {
+  background-color: #ccc;
+  font: 14px Helvetica-Neue, HelveticaNeue, Helvetica, sans-serif; 
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0, 0, 0, 1)), to(rgba(256, 256, 256, 0.10)));
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 1), rgba(256, 256, 256, 0.10) 100%); 
+    }
+  body a {
+    color: #959595;
+    text-decoration: none;
+    -webkit-transition: 1s color; }
+    body a:hover {
+      color: white; }
+  body h1, body h2, body h3 {
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: lowercase; }
+  body h1 a, body h1 a:hover {
+    color: black; }
+  body h2, body h2 a, body h2 a:hover {
+    color: #bdbdbd; }
+  body img {
+    border: none; }
+  body .header {
+    background-color: white; }
+  body .time {
+    background-color: grey; }
+    body .time .buffer {
+      background-color: lightgrey; }
+    body .time .played {
+      background-color: whiteSmoke; }
+  body .gradient {
+    background-image: url(/images/fade.png);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(256, 256, 256, 0)), to(rgba(256, 256, 256, 0.20)));
+    background: -moz-linear-gradient(top, rgba(256, 256, 256, 0), rgba(256, 256, 256, 0.20) 100%); }
+  body .footer {
+    border-top: 1px solid #464646;
+    color: #959595; 
+    background-color: #565a5c;
+    }
+    body .footer div {
+      -webkit-transition: 1s color; }
+    body .footer div:hover {
+      color: white; }
+    body .footer em {
+      color: white;
+      font-style: normal; }
+  body .button {
+    background: url(/images/sprites.png) top left no-repeat;
+    cursor: pointer;
+    opacity: 0.25;
+    -webkit-transition: 1s opacity; }
+    body .button:hover {
+      opacity: 1; }
+    body .button.prev {
+      background-position: 0 0; }
+    body .button.play {
+      background-position: -17px 0; }
+    body .button.next, body .button.continue {
+      background-position: -34px 0; }
+    body .button.pause {
+      background-position: -51px 0; }
+    body .button.share {
+      background-position: -68px 0; }
+    body .button.buy {
+      background-position: -85px 0; }
+    body .button.interact {
+      background-position: -102px 0; }
+    body .button.close {
+      background-position: -119px 0; }
+  body .footer .button {
+    opacity: 1; }
+  body > a {
+    position: absolute; }
+  body .nav {
+    background: url(/images/arrows.png) top left no-repeat;
+    cursor: pointer;
+    height: 43px;
+    opacity: 0.25;
+    -webkit-transition: 1s opacity;
+    width: 22px; }
+    body .nav:hover {
+      opacity: 1; }
+  body .continue {
+    border-bottom: 1px solid lightgrey;
+    color: grey;
+    -webkit-animation-name: 'glow';
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out; }
+    body .continue:hover {
+      color: black; }
+  body .prev-photo {
+    background-position: -22px 0; }
+  body .next-photo {
+    background-position: 0 0; }
+  body .content {
+    background: white url(/images/photo.jpg) top left no-repeat;
+    background-size: 400px;
+    -moz-background-size: 400px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); }
+    body .content .user {
+      color: grey; }
+  body ol.instructions {
+    margin-top: 10px; }
+    body ol.instructions li {
+      margin-bottom: 5px; }
+  body svg > .layer {
+  
+  opacity: 0.4;
+
+  
+  }

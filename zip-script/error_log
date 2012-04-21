@@ -1,0 +1,36 @@
+[15-Apr-2012 11:26:25] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/alwaysbe/public_html/zip-script-1/index.php on line 38
+[15-Apr-2012 11:27:16] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/alwaysbe/public_html/zip-script-1/index.php on line 32
+[15-Apr-2012 12:04:17] PHP Parse error:  syntax error, unexpected '}' in /home/alwaysbe/public_html/zip-script-2/index.php on line 52
+[15-Apr-2012 12:04:18] PHP Parse error:  syntax error, unexpected '}' in /home/alwaysbe/public_html/zip-script-2/index.php on line 52
+[15-Apr-2012 13:55:43] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/alwaysbe/public_html/zip-script-2/index.php on line 47
+[15-Apr-2012 13:56:18] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/alwaysbe/public_html/zip-script-2/index.php on line 53
+[15-Apr-2012 13:56:19] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/alwaysbe/public_html/zip-script-2/index.php on line 53
+[15-Apr-2012 20:53:24] PHP Warning:  Invalid argument supplied for foreach() in /home/alwaysbe/public_html/zip-script-2/index.php on line 69
+[15-Apr-2012 20:53:57] PHP Warning:  Invalid argument supplied for foreach() in /home/alwaysbe/public_html/zip-script-2/index.php on line 69
+[15-Apr-2012 20:53:59] PHP Warning:  Invalid argument supplied for foreach() in /home/alwaysbe/public_html/zip-script-2/index.php on line 69
+[15-Apr-2012 20:54:00] PHP Warning:  Invalid argument supplied for foreach() in /home/alwaysbe/public_html/zip-script-2/index.php on line 69
+[15-Apr-2012 20:54:17] PHP Warning:  Invalid argument supplied for foreach() in /home/alwaysbe/public_html/zip-script-2/index.php on line 69
+[15-Apr-2012 20:54:19] PHP Warning:  Invalid argument supplied for foreach() in /home/alwaysbe/public_html/zip-script-2/index.php on line 69
+[15-Apr-2012 20:54:20] PHP Warning:  Invalid argument supplied for foreach() in /home/alwaysbe/public_html/zip-script-2/index.php on line 69
+[15-Apr-2012 22:18:08] PHP Fatal error:  Call to undefined function get_curl() in /home/alwaysbe/public_html/zip-script-2/curl.php on line 8
+[17-Apr-2012 19:28:57] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home/alwaysbe/public_html/zip-script-4/index.php on line 60
+[17-Apr-2012 19:29:11] PHP Parse error:  syntax error, unexpected T_STRING in /home/alwaysbe/public_html/zip-script-4/index.php on line 66
+[17-Apr-2012 19:32:40] PHP Parse error:  syntax error, unexpected T_STRING in /home/alwaysbe/public_html/zip-script-4/index.php on line 76
+[17-Apr-2012 19:32:54] PHP Parse error:  syntax error, unexpected T_STRING in /home/alwaysbe/public_html/zip-script-4/index.php on line 77
+[17-Apr-2012 19:32:56] PHP Parse error:  syntax error, unexpected T_STRING in /home/alwaysbe/public_html/zip-script-4/index.php on line 77
+[17-Apr-2012 19:32:58] PHP Parse error:  syntax error, unexpected T_STRING in /home/alwaysbe/public_html/zip-script-4/index.php on line 77
+[17-Apr-2012 19:33:28] PHP Parse error:  syntax error, unexpected T_STRING in /home/alwaysbe/public_html/zip-script-4/index.php on line 77
+[17-Apr-2012 19:33:29] PHP Parse error:  syntax error, unexpected T_STRING in /home/alwaysbe/public_html/zip-script-4/index.php on line 77
+[17-Apr-2012 19:33:30] PHP Parse error:  syntax error, unexpected T_STRING in /home/alwaysbe/public_html/zip-script-4/index.php on line 77
+[17-Apr-2012 19:33:31] PHP Parse error:  syntax error, unexpected T_STRING in /home/alwaysbe/public_html/zip-script-4/index.php on line 77
+[17-Apr-2012 19:34:09] PHP Fatal error:  Function name must be a string in /home/alwaysbe/public_html/zip-script-4/index.php on line 74
+[17-Apr-2012 23:27:07] PHP Fatal error:  Cannot use object of type stdClass as array in /home/alwaysbe/public_html/zip-script-4/index.php on line 25
+[17-Apr-2012 23:28:27] PHP Parse error:  syntax error, unexpected $end in /home/alwaysbe/public_html/zip-script-4/index.php on line 87
+[17-Apr-2012 23:28:45] PHP Parse error:  syntax error, unexpected '}' in /home/alwaysbe/public_html/zip-script-4/index.php on line 63
+[17-Apr-2012 23:29:43] PHP Fatal error:  Cannot use object of type stdClass as array in /home/alwaysbe/public_html/zip-script-4/index.php on line 25
+[17-Apr-2012 23:31:16] PHP Fatal error:  Cannot use object of type stdClass as array in /home/alwaysbe/public_html/zip-script-4/index.php on line 35
+[18-Apr-2012 07:41:04] PHP Fatal error:  Cannot use object of type stdClass as array in /home/alwaysbe/public_html/zip-script-4/index.php on line 35
+[18-Apr-2012 08:02:31] PHP Parse error:  syntax error, unexpected $end in /home/alwaysbe/public_html/zip-script-4/index.php on line 85
+[18-Apr-2012 08:25:40] PHP Parse error:  syntax error, unexpected ')' in /home/alwaysbe/public_html/zip-script-4/index.php on line 8
+[18-Apr-2012 08:25:41] PHP Parse error:  syntax error, unexpected ')' in /home/alwaysbe/public_html/zip-script-4/index.php on line 8
+[18-Apr-2012 08:26:01] PHP Parse error:  syntax error, unexpected T_ELSE in /home/alwaysbe/public_html/zip-script-4/index.php on line 13

@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+body p {
+  margin: 10px 0; }
+body h1, body h2 {
+  display: inline-block;
+  margin-top: 3px; }
+body h1 {
+  margin-right: 20px; }
+body h2 {
+  width: 500px; }
+  body h2:after {
+    content: "."; }
+body h3 {
+  margin: 20px 0; }
+body > div {
+  position: absolute;
+  z-index: 2; }
+body .header, body .gradient, body .footer {
+  height: 135px;
+  width: 100%; }
+body .header {
+  /*top: 2px;*/
+  border-bottom: 6px solid #51a601;
+  height: 60px;
+   }
+  body .header > div {
+    position: absolute; }
+  body .header .info {
+    left: 50px;
+    top: 15px; }
+  body .header .controls {
+    right: 50px;
+    top: 20px; }
+body .time {
+  width: 100%; }
+  body .time, body .time div {
+    height: 2px;
+    position: absolute; }
+  body .time > div {
+    width: 0; }
+body .gradient {
+  height: 100%; }
+body .gradient, body .footer {
+  bottom: 0px; }
+body .footer > div {
+  cursor: pointer;
+  position: absolute;
+  top: 20px; }
+body .footer > .interact {
+  left: 50px; }
+body .footer > .share {
+  width: 200px; }
+body .footer > .buy {
+  right: 50px; }
+body .footer .share .like {
+  left: 110px;
+  position: absolute; }
+body .button {
+  display: inline-block;
+  height: 17px;
+  width: 17px; }
+body .header .button {
+  margin-left: 50px; }
+body .footer .button {
+  margin-bottom: -4px; }
+body .nav {
+  z-index: 2; }
+body .prev-photo {
+  left: 50px; }
+body .next-photo {
+  right: 50px; }
+body .tech {
+  bottom: 125px;
+  text-align: center;
+  width: 100%; }
+body .content {
+  height: 300px;
+  width: 800px; }
+  body .content img, body .content .data {
+    width: 400px; }
+  body .content div, body .content a {
+    position: absolute; }
+  body .content > div {
+    width: 800px; }
+  body .content .data {
+    right: 0;
+    text-align: center; }
+    body .content .data p {
+      padding: 0 20px; }
+    body .content .data .user {
+      margin-top: 20px;
+      text-transform: lowercase; }
+      body .content .data .user:before {/*
+        content: "– "; */}
+  body .content .close {
+    right: 20px;
+    top: 20px; }
+  body .content .continue {
+    bottom: 10px;
+    padding: 6px 10px 2px 10px;
+    right: 10px; }
+body svg {
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%; }
+body .map {
+  height: 100%;
+  width: 100%;
+  z-index: 0; }
+body .tracks, body .photos, body .nav, body .close {
+  display: none; }
+
+circle {
+  cursor: pointer; }
