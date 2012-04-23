@@ -1,0 +1,54 @@
+/* 
+
+Zipstagram Styles 1.0
+Author: Michael J. Champlin
+URL: http://mjchamplin.com
+
+*/
+
+/*	Resets  */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figure,figcaption,hgroup,menu,header,footer,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0}article,aside,canvas,figure,figure img,figcaption,hgroup,footer,header,nav,section,audio,video{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+
+
+html { height: 100%;} 
+body { background: black; height: 100%; font-family: Helvetica, Arial, sans-serif; }
+
+
+#container { }
+#header { position: fixed; z-index: 1; width: 100%; height: 60px; border-bottom: 5px solid #51a601; background-color: #fff;}
+#header h1 { font-size: 32px; margin: 10px 0 0 30px; font-family: "Helvetica", "Arial", sans-serif; color: #666;}
+#header #nav { position: fixed; right: 30px; top: 25px; font-size: 14px; font-weight: bold; text-transform: lowercase;}
+
+
+#footer { position: fixed; bottom: 0; background-color: #565a5c; z-index: 1; width: 100%; height: 120px; border-top: 1px solid #888; }
+#zip-logo { position: fixed; bottom: 25px; right: 10px; z-index: 1;}
+
+
+
+/* Carousel */
+        #carousel {
+			position: fixed; 
+			bottom: 130px;
+            width: 100%;
+            background-color: #000;
+            height: 70px;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, .3);
+        }
+        
+        #carousel img { float: left; margin-left: 8px;}
+        
+       #carousel .zoom {
+			float: left;
+            z-index: 0;
+        }
+       #carousel .end {
+            margin-right: 0;
+        }
+        .clear {
+            clear: both;
+        }
+       #carousel .zoom a img {
+            position: relative;
+        }

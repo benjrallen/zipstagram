@@ -13,15 +13,15 @@ $(function(){
       top: ( $(window).height() - $content.height() ) / 2
     });
 
-    // center share buttons horizontally
+    // center share buttons horizontally [nuke]
 
-    $('.share').css('left', ( $(window).width() - $('.share').width() ) / 2);
+   // $('.share').css('left', ( $(window).width() - $('.share').width() ) / 2);
 
-    // center photo nav vertically
+    // center photo nav vertically [nuke]
 
     $('.nav').css('top', ( $(window).height() - $('.nav').width() ) / 2 );
 
-    // center photo data vertically
+    // center photo data vertically [nuke]
 
     $('.data').css('top', ($content.height() - $('.data').height()) / 2 );
 
@@ -42,6 +42,10 @@ $(function(){
   // set map variables
 
   var map = po.map().container(svg).center({lat: 46, lon: -52}).zoom(3.5).add(po.interact());
+  
+  // set zoom range
+  
+  map.zoomRange([2,10]);
 
   // add tiles to the map, colors: 998, 29637, 26490
 
@@ -141,6 +145,7 @@ $(function(){
           data = $photo.data('photo'),
           $content = $('.content'),
           point = { lat: data.latitude, lon: data.longitude };
+          user = data.user;
 
       // Center map and zoom in
 
@@ -156,27 +161,25 @@ $(function(){
 
       $('.photo').fadeOut('slow', function(){
 
-        $('.content img').attr('src', data.image);
+        $('.photo img.pcp').attr('src', data.image);
+        
+        $('.photo img.slug').attr('src', data.profile_picture);
 
         $('.content h3').text(data.title);
 
         $('.content .description').text(data.description);
 
-        data.instagram_id == null ? user = "moby" : user = data.user;
-
         $('.content .user').text(user);
 
-        //$('.content .user').text(data.user || "moby");
+        //$('.content .user').text(data.user);
 
         $('.data').css('top', ($('.content').height() - $('.data').height()) / 2 );
 
       })
 
-      // Find appropriate height, depends on Instagram vs. Moby photo, then apply to content div
+      // Find appropriate height, depends on photo, then apply to content div
 
-      //$content.css('height', data.user ? 400 : 300);
-
-      $content.css('height', data.instagram_id == null ? 300 : 400);
+      $content.css('height', 300);
 
       // Fade in content & nav
 
@@ -184,7 +187,7 @@ $(function(){
 
         //$('.content img').attr('src', data.image);
 
-        $('.content').css('background-image', 'url(' + data.image + ')');
+        //$('.content').css('background-image', 'url(' + data.image + ')');
 
         // Center the content div on the page
 
@@ -194,7 +197,7 @@ $(function(){
 
       // Fade out map
 
-       $('svg > .layer').animate({opacity: 0.4}, 1000);
+       $('svg > .layer').animate({opacity: 0.8}, 1000);
 
     });
 
@@ -264,7 +267,7 @@ $(function(){
 
       $('.content, .nav').fadeOut();
 
-      $('svg > .layer').animate({opacity: 0.6}, 1000);
+      $('svg > .layer').animate({opacity: 1}, 1000);
 
     }
 

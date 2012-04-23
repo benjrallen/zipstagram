@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQuery Zoom Hover</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+    
+        var cont_left = $("#carousel").position().left;
+        $("a img").hover(function() {
+            // hover in
+            $(this).parent().parent().css("z-index", 1);
+            $(this).animate({
+               height: "120",
+               width: "120",
+               left: "-=50",
+               top: "-=50"
+            }, "fast");
+        }, function() {
+            // hover out
+            $(this).parent().parent().css("z-index", 0);
+            $(this).animate({
+                height: "70",
+                width: "70",
+                left: "+=50",
+               top: "+=50"
+            }, "fast");
+        });
+        
+        $(".zoom").each(function(index) {
+            var left = (index * 80) + cont_left;
+            $(this).css("left", left + "px");
+        });
+    });
+    </script>
+    <style type="text/css">
+        #carousel {
+
+            margin-top: 150px;
+            width: 100%;
+            background-color: #000;
+            height: 70px;
+            padding: 10px 0;
+        }
+       #carousel .zoom {
+            position: fixed;
+            z-index: 0;
+        }
+       #carousel .end {
+            margin-right: 0;
+        }
+        .clear {
+            clear: both;
+        }
+       #carousel .zoom a img {
+            position: relative;
+            border: 0 solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="carousel">
+        <div class="zoom"><a href="#"><img src="1.jpg" width="70" height="70" /></a></div>
+        <div class="zoom"><a href="#"><img src="2.jpg" width="70" height="70" /></a></div>
+        <div class="zoom"><a href="#"><img src="3.jpg" width="70" height="70" /></a></div>
+        <div class="zoom"><a href="#"><img src="4.jpg" width="70" height="70" /></a></div>
+        <div class="zoom end"><a href="#"><img src="5.jpg" width="70" height="70" /></a></div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>

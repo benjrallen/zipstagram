@@ -44,7 +44,13 @@
 <!--<div class='gradient'></div>-->
 
 <div class='carousel'>
-
+<div class='thumbnail'></div>
+<div class='thumbnail'></div>
+<div class='thumbnail'></div>
+<div class='thumbnail'></div>
+<div class='thumbnail'></div>
+<div class='thumbnail'></div>
+<div class='thumbnail'></div>
 </div>
 
 <!-- Footer -->
@@ -53,18 +59,13 @@
 <div class='footer'>
 
 <div class='interact'>
-
-
-<a href='#'>
-<div class='button interact'></div>
-<!--<em>tag photos</em> #destroyed on instagram-->
-</a>
+	<a href='#'>
+		<div class='button interact'></div>
+	<!--<em>tag photos</em> #destroyed on instagram-->
+	</a>
 </div><!--Nuke this module-->
 
-<div class='share'>
-<!--<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://destroyed.moby.com" data-text="Destroyed - Listen to the full album" data-count="horizontal" data-via="thelittleidiot">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-<iframe class="like" src="http://www.facebook.com/plugins/like.php?href=destroyed.moby.com&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
---></div>
+
 
 
 <div class='buy'>
@@ -79,28 +80,20 @@
 <!-- Content -->
 <a class='nav next-photo'></a>
 <a class='nav prev-photo'></a>
-<div class='tech'>
-<!--
-<a href="http://instagr.am/" target="_blank"><img alt="Instagram" src="/images/instagram.png?1305055263" /></a>
-<a href="http://polymaps.org/" target="_blank"><img alt="Polymaps" src="/images/polymaps.png?1305055263" /></a>
-<a href="http://soundcloud.com/thelittleidiot" target="_blank"><img alt="Soundcloud" src="/images/soundcloud.png?1305055263" /></a>
--->
-</div>
+	<div class='tech'>
+	</div>
+
 <div class='content'>
-
-
-<div class='photo'>
-<img src='/images/artwork.jpg'>
-<div class='data'>
-<h3></h3>
-<p class='description'>
-i don't sleep very well when i travel.  and as a result, i tend to be awake in cities when everyone else is asleep. that's where this album, and the pictures that accompany it come from. it was primarily written late at night in cities when i felt like i was the only person awake (or alive), a soundtrack for empty cities at 2 a.m, at least that's how i hear it. the pictures were taken on tour while i was writing the album. i wanted to show a different side of touring and traveling. a side that is often mundane, disconcerting, and occasionally beautiful.<br>
-<br>
-as always, thank you for listening. and hopefully see you soon.
-</p>
-<p class='user'></p>
+	<div class='photo'>
+		<img class='pcp' src='/images/artwork.jpg'>
+	<div class='data'>
+		<img class='slug' src='/' />
+		<p class='user'></p>
+		<h3></h3>
+		<p class='description'>I like to murder people.</p>
+	</div>
 </div>
-</div>
+
 <a class='button close'></a>
 <a class='continue' href='#'>continue</a>
 </div>

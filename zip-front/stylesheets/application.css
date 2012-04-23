@@ -83,23 +83,25 @@ body .tech {
   width: 100%; }
 body .content {
   height: 300px;
-  width: 800px; }
-  body .content img, body .content .data {
-    width: 400px; }
+  width: 600px; }
+  body .content img {
+  width: 300px; }
+  body .content .data { width: 300px; }
+  body .content .data img.slug { width: 40px; }
   body .content div, body .content a {
     position: absolute; }
   body .content > div {
-    width: 800px; }
+    width: 600px; } 
   body .content .data {
-    right: 0;
-    text-align: center; }
-    body .content .data p {
+    /*right: 0;*/
+    left: 300px;
+    text-align: left; }
+    body .content .data p, body .content .data h3 {
       padding: 0 20px; }
     body .content .data .user {
       margin-top: 20px;
       text-transform: lowercase; }
-      body .content .data .user:before {/*
-        content: "– "; */}
+      body .content .data .user:before {}
   body .content .close {
     right: 20px;
     top: 20px; }

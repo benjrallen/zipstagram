@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQuery Zoom Hover</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="animate.js"></script>
+    <script type="text/javascript">
+/*    $(document).ready(function() {
+        var cont_left = $("#container").position().left;
+        $("a img").hover(function() {
+            // hover in
+            $(this).parent().parent().css("z-index", 1);
+            $(this).animate({
+               height: "250",
+               width: "250",
+               left: "-=50",
+               top: "-=50"
+            }, "fast");
+        }, function() {
+            // hover out
+            $(this).parent().parent().css("z-index", 0);
+            $(this).animate({
+                height: "150",
+                width: "150",
+                left: "+=50",
+               top: "+=50"
+            }, "fast");
+        });
+
+        $(".img").each(function(index) {
+            var left = (index * 160) + cont_left;
+            $(this).css("left", left + "px");
+        });
+    });*/
+    </script>
+    <style type="text/css">
+        #container {
+            text-align: center;
+            position: absolute;
+            left: 260px;
+            margin-top: 150px;
+            width: 790px;
+        }
+        .img {
+            position: fixed;
+            z-index: 0;
+        }
+        .end {
+            margin-right: 0;
+        }
+        .clear {
+            clear: both;
+        }
+        .img a img {
+            position: relative;
+            border: 0 solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="img"><a href="#"><img src="1.jpg"/></a></div>
+        <div class="img"><a href="#"><img src="2.jpg"/></a></div>
+        <div class="img"><a href="#"><img src="3.jpg"/></a></div>
+        <div class="img"><a href="#"><img src="4.jpg"/></a></div>
+        <div class="img end"><a href="#"><img src="5.jpg"/></a></div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
